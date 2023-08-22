@@ -1,0 +1,37 @@
+.shipping,
+.payment,
+.return,
+.support {
+  display: flex;
+  align-items: center;
+  margin: 0% auto;
+}
+
+.icon svg {
+  width: auto;
+  height: 2.5rem;
+  transition: all 0.8s;
+}
+
+.icon {
+  margin-right: 1.25rem;
+}
+
+.icon:hover svg {
+  transform: rotate(360deg);
+}
+
+.title h4 {
+  font-size: 1.25rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 0.7rem;
+}
+
+.title p {
+  font-size: 1rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #666;
+}
